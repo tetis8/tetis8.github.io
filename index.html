@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página pessoal de exemplo">
+  <title>Página Pessoal</title>
+  <!-- Link para o Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Link para CSS adicional -->
+  <style>
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .hero {
+      background-color: #dd60dd;
+      padding: 50px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="hero text-center">
+    <img src="img/tete.png" alt="Foto de perfil" class="profile-img mb-3">
+    <h1>Estefany Mayara</h1>
+    <p class="lead">Jovem Aprendiz | Ruiva | Cozinheira</p>
+    <div>
+      <a href="#about" class="btn btn-primary">Sobre Mim</a>
+      <a href="#projects" class="btn btn-outline-secondary">Projetos</a>
+    </div>
+  </header>
+
+  <!-- Sobre Mim -->
+  <section id="about" class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <h2>Sobre Mim</h2>
+        <p>
+            Me chamo estefany Mayara, tenho 16 anos. No período da manhã, faço tecnologia básica na Afesu Morro Velho em parceria com o Senai, de tarde faço jovem aprendiz, e no período noturno, sou estudante do 1° ano do ensino médio. 
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projects" class="container py-5 bg-light">
+    <div class="text-center mb-5">
+      <h2>Meus Projetos</h2>
+      <p class="lead">Confira os cursos que realizei na Afesu:</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/operador de microcomputador.jpg" class="card-img-top" alt="Projeto 1" >
+          <div class="card-body">
+            <h5 class="card-title">Operador de Microcomputadores (160h)</h5>
+            <p class="card-text">tem por objetivo desenvolver competências relacionadas a instalação e configuração de aplicativos, detecção de falhas de hardware e do sistema operacional, assegurando o funcionamento do sistema. Utiliza os principais recursos do Word, do Excel, do PowerPoint e de navegação na internet.</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/redes de computadores2.jpg" class="card-img-top" alt="Projeto 2">
+          <div class="card-body">
+            <h5 class="card-title">Redes de Computadores (48h)</h5>
+            <p class="card-text">São formadas pela interligação de dois ou mais dispositivos computacionais por meio de um sistema de comunicação.
+
+                Esse sistema é baseado em um conjunto de regras e modelos que possibilitam o compartilhamento de informações, serviços e recursos entre dispositivos.</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/powerbi2.png" class="card-img-top" alt="Projeto 3">
+          <div class="card-body">
+            <h5 class="card-title">PowerBI (20h)</h5>
+            <p class="card-text"> Microsoft Power BI é a plataforma de dados que fornece à usuários não técnicos, métodos para agregar, analisar, visualizar e compartilhar dados bem semelhante ao Excel já utilizado. O Power BI é bastante intuitiva para quem é familiarizado com o Excel, Além disso, o Power BI oferece um portal administrativo</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <p></p>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/google cloud2.jfif" class="card-img-top" alt="Projeto 3">
+          <div class="card-body">
+            <h5 class="card-title">Google cloud (40h)</h5>
+            <p class="card-text">O Google Cloud Platform (GCP) é a plataforma de computação nuvem do Google que serve como servidor para outros negócios realizarem migração de VM (máquinas virtuais), além de criar aplicativos e sites com o melhor desempenho, segurança e facilidade de acesso.</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src= "img/Google IA.webp" class="card-img-top" alt="Projeto 3">
+          <div class="card-body">
+            <h5 class="card-title">Google Inteligência Artificial (40h)</h5>
+            <p class="card-text">É um conjunto de tecnologias que permitem aos computadores executar uma variedade de funções avançadas, incluindo a capacidade de ver, entender e traduzir idiomas falados e escritos, analisar dados, fazer recomendações e muito mais. </p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/design-de-interface.jpg" class="card-img-top" alt="Projeto 3">
+          <div class="card-body">
+            <h5 class="card-title">Designer de Interface Web (60h)</h5>
+            <p class="card-text">Design de interface é a prática responsável pelo planejamento, desenvolvimento e aplicação de uma solução com o objetivo de facilitar a experiência do usuário e estimular sua interação com um objeto físico ou digital.</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contact" class="container py-5">
+    <div class="text-center mb-5">
+      <h2>Contato</h2>
+      <p class="lead">Gostou do que viu? Entre em contato!</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Seu Nome</label>
+            <input type="text" class="form-control" id="name" placeholder="Seu Nome">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Seu Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Seu Email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Sua Mensagem"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="text-center py-4 bg-dark text-light">
+    <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Link para o Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
